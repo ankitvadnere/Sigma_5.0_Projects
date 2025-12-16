@@ -1,0 +1,19 @@
+h2 {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+p {
+    color: white;
+    background-color: black;
+}

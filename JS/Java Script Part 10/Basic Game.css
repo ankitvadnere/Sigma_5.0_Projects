@@ -1,0 +1,23 @@
+.block {
+    display: flex;
+    height: 50vh;
+    width: 25vw;
+    background-image: url('Doremon.jpg');
+    background-size: contain;
+}
+
+.down {
+    margin-top: 21%;
+}
+
+.up {
+    margin-bottom: 21%;
+}
+
+.left {
+    margin-right: 74%;
+}
+
+.right {
+    margin-left: 74%;
+}

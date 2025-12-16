@@ -1,0 +1,25 @@
+.Traffic_light {
+    height: 600px;
+    width: 210px;
+    border: 6px solid black;
+}
+
+.signal {
+    height: 150px;
+    width: 150px;
+    border: 6px solid black;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}

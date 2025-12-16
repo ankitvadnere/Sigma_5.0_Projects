@@ -1,0 +1,17 @@
+#container {
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    flex-grow: 1;
+}

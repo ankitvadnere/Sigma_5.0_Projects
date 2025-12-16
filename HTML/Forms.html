@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form action="/action">
+        Basic Form
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" id="username" placeholder="Enter Username" name="user">
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="Enter Password" name="pass">
+        </div>
+        <div>
+            <label for="age">Age: </label>
+            <input type="number" id="age" placeholder="Enter Age" name="age">
+        </div>
+        <button type="submit"> Submit </button>
+        <button type="button"> Button </button>
+        <button type="reset"> Reset </button> 
+    </form>
+    <br><hr><br>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search on Google" name="q">
+        <button type="submit"> Search </button>
+        <button type="reset"> Reset </button>
+    </form>
+    <br><hr><br>
+    <form action="/action">
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I am 18+</label>
+        <button type="submit"> Submit </button>
+    </form>
+    <br><hr><br>
+    <form action="/action">
+        Gender:
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="male">Female</label>
+        <br><hr><br>
+        Choose Subjects:
+        <input type="checkbox" name="sub" id="maths" value="maths">
+        <label for="maths">Maths</label>
+        <input type="checkbox" name="sub" id="eng" value="eng">
+        <label for="eng">English</label>
+        <input type="checkbox" name="sub" id="sci" value="sci">
+        <label for="sci">Science</label>
+        <br><hr><br>
+        Choose City:
+        <select name="city" id="city">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+        </select>
+        <br><hr><br>
+        <input type="range" id="vol" name="vol" min="0" max="100">
+        <label for="vol">Volume</label>
+        <br><hr><br>
+        <textarea id="feedback" rows="5" cols="30" placeholder="Enter your feedback" name="fb"></textarea>
+        <label for="feedback">Feedback</label>
+        <br><hr><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

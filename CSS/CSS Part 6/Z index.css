@@ -1,0 +1,19 @@
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+}
+
+#one {
+    background-color: pink;
+}
+
+#two {
+    background-color: skyblue;
+    position: relative;
+    bottom: 50px;
+}
+
+#three {
+    background-color: wheat;
+}

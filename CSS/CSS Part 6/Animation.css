@@ -1,0 +1,27 @@
+#box {
+    height: 100px;
+    width: 300px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    margin: 20px;
+
+    /* animation-name: long;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+
+    animation: long 3s ease-in-out 0s infinite alternate-reverse;
+}
+
+@keyframes long {
+    from {
+        width: 300px;
+        background-color: cadetblue;
+    }
+    to {
+        width: 800px;
+        background-color: aqua;
+    }
+}

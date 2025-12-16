@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Color-box {
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+    border: 5px solid black;
+}
