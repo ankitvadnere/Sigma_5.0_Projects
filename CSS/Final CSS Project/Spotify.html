@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="Spotify.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav-bar">
+                <div class="nav-opt" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-opt">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib-nav">
+                    <div class="lib-options">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right hide1"></i>
+                    </div>
+                </div>
+                <div class="lib-content">
+                    <div class="lib-box">
+                        <h3>Create your first playlist</h3>
+                        <p>It's easy we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="lib-box">
+                        <h3>Let's fing some podcasts to follow</h3>
+                        <p>We'll keep you updated to new episodes</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-nav">
+                <div class="left-btns">
+                    <img id="back-btn" src="backward_icon.png">
+                    <img class="hide" id="forward-btn"src="forward_icon.png">
+                </div>
+                <div class="right-btns">
+                    <button class="hide">Explore Premium</button>
+                    <button id="install"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="albums">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card1img.jpeg">
+                        <h3>Top 50 - Global</h3>
+                        <p>Your daily update of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card5img.jpeg">
+                        <h3>Top Songs Global</h3>
+                        <p>Explore the top songs across the globe...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card6img.jpeg">
+                        <h3>Top Songs India</h3>
+                        <p>Listen to the trending songs in India...</p>
+                    </div>
+                </div>
+
+                <h2>Top Hits in India</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card2img.jpeg">
+                        <h3>Mahiye Jinna Sona</h3>
+                        <p>Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="card3img.jpeg">
+                        <h3>Mere Paas Tum Ho</h3>
+                        <p>Nusrat Fateh Ali Khan</p>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg">
+                        <h3>Leo(Song Album)</h3>
+                        <p>Thalapthy Vijay, Pooja Hegde...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="curr-song">
+                <div class="song-img">
+                    <img src="album_picture.jpeg">
+                </div>
+                <div class="song-name">
+                    <h5>Daylight</h5>
+                    <h6>David Kushner</h6>
+                </div>
+                <div class="song-react">
+                    <img id="heart" src="album_icon1.png">
+                    <img src="album_icon2.png">
+                </div>
+            </div>
+            <div class="play-controls">
+                <div class="play-btns">
+                    <img src="player_icon1.png">
+                    <img src="player_icon2.png">
+                    <img id="play" src="player_icon3.png">
+                    <img src="player_icon4.png">
+                    <img src="player_icon5.png">
+                </div>
+                <div class="play-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress">
+                    <span class="tot-time">5.33</span>
+                </div>
+            </div>
+            <div class="song-opts">
+                <img class="same-btns" src="controls_icon1.png">
+                <img class="same-btns" src="controls_icon2.png">
+                <img class="stack" src="controls_icon3.png">
+                <img class="comp-play" src="controls_icon4.png">
+                <img class="same-btns" src="controls_icon5.png">
+                <input type="range" min="0" max="100" class="vol-bar"> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
