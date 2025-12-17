@@ -1,0 +1,15 @@
+{
+  "name": "import_test",
+  "version": "1.0.0",
+  "description": "This is to test import export",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Vadnere",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
