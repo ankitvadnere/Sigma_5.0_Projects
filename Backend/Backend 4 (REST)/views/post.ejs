@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailes Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Post</h1>
+    <div class="post">
+        <p>Post id <%= post.id %></p>
+        <h2 class="user">@<%= post.username %></h2>
+        <p class="content"><%= post.content %></p>
+        <button><a href="http://localhost:3000/posts/">Go Back To All Posts</a></button>
+    </div>
+</body>
+</html>
